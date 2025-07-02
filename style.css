@@ -24,3 +24,33 @@ body {
 .Producto:nth-child(2){
     font-style: italic;
 }
+.Producto:not(.destacado):hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+button:disabled{
+    background-color: #999;
+    color: white;
+    cursor: not-allowed;
+}
+/* checbox marcado*/
+input[type="checkbox"]:checked{
+    outline: 2px solid green;
+}
+/* checbox desactivdo*/
+input[type="checkbox"]:disabled + label{
+    color: #888;
+}
+
+/* input enfocado */
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+}
+/* inputs del formulario */
+.formulario input:first-child{
+    background-color: #eff;
+}
+.formulario input:last-child{
+    background-color: #efe;
+}

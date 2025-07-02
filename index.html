@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Bienvenido a la tienda</h1>
+
+
+    <input type="text" class="busqueda" placeholder="Buscar productos....">
+
+    <div class="Filtros">
+        <label><input type="checkbox" checked> Electronica></label>
+        <label><input type="checkbox"> Ropa</label>
+        <label><input type="checkbox" disabled> Juegos</label>
+    </div>
+    
+    <ul class="productos">
+        <li class="producto">Producto A - $1000 <button>Comprar</button></li>
+        <li class="Producto">Producto B - $1500 <button>Comprar</button></li>
+        <li class="Producto">Producto C - $2000 <button>Comprar</button></li>
+        <li class="Producto destacado">Producto D - $2500 <button>Comprar</button></li>
+    </ul>
+
+    <form class="formulario">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Correo Electronico">
+        <button type="submit">Enviar</button>
+    </form>
+    
     
 </body>
 </html>
